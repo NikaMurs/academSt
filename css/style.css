@@ -176,7 +176,8 @@ body {
     object-fit: scale-down;
     object-position: 100% 100%;
     pointer-events: none;
-    width: 30%;
+    width: 25%;
+    max-width: 400px;
     margin-top: auto;
     margin-bottom: auto;
 }
