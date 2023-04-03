@@ -58,7 +58,7 @@ body {
 
 .headerTitle {
     width: 100%;
-    font-size: 100px;
+    font-size: 75px;
     font-weight: 700;
     letter-spacing: 3px;
     color: #FFFFFF;
@@ -101,7 +101,7 @@ body {
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 64px;
+    font-size: 48px;
     color: #000000;
     width: 100%;
 }
@@ -151,10 +151,10 @@ body {
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 24px;
     color: #6C6D71;
     margin: 0;
-    line-height: 50px;
+    line-height: 36px;
     cursor: default;
 }
 
@@ -162,7 +162,7 @@ body {
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 21px;
     color: #6C6D71;
     cursor: default;
 }
@@ -176,8 +176,8 @@ body {
     object-fit: scale-down;
     object-position: 100% 100%;
     pointer-events: none;
-    width: 25%;
-    max-width: 400px;
+    width: 20%;
+    max-width: 320px;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -193,7 +193,7 @@ body {
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 48px;
+    font-size: 36px;
     color: #6C6D71;
     width: 100%;
 }
@@ -295,14 +295,109 @@ body {
     border: solid 2px #F7941D;
 }
 
+.rectangle ul{
+    margin: 0;
+}
+
 .rectangle li {
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 24px;
     color: #6C6D71;
     cursor: default;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
+.ulMargin li:nth-child(n+2){
+    margin-top: 20px;
+}
+
+.teacherCards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;;
+}
+
+.teacherCard{
+    border: solid 2px #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 64px;
+    padding: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+    align-content: start;
+    transition: 300ms;
+    width: calc(50% - 40px);
+    text-decoration: none;
+    box-sizing: border-box;
+    min-width: 450px
+}
+
+.teacherCard:hover{
+    border: solid 2px #F7941D;
+}
+
+.teacherImg{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.teacherCardText{
+    width: calc(100% - 150px - 40px);
+    margin-left: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.teacherCardText span{
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #6C6D71;
+    margin: 0;
+    line-height: 36px;
+    width: 100%;
+}
+
+.teacherCardText p{
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 21px;
+    color: #6C6D71;
+    width: 100%;
+    margin: 0;
+}
+
+.button{
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 40px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #F7941D;
+    border: solid 2px #F7941D;
+    border-radius: 64px;
+    transition: 300ms;
+}
+
+.button:hover{
+    background-color: #FFFFFF;
+    border: solid 2px #F7941D;
+    color: #F7941D;
+}
