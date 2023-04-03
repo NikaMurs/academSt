@@ -171,7 +171,6 @@ body {
     margin-top: 30px;
 }
 
-
 .circlePhotoMission {
     object-fit: scale-down;
     object-position: 100% 100%;
@@ -382,17 +381,23 @@ body {
     margin: 0;
 }
 
+.buttonWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
 .button{
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 54px;
+    font-size: 48px;
     color: #FFFFFF;
     text-decoration: none;
     text-align: center;
     padding: 20px 40px;
     margin: auto;
-    margin-top: 50px;
     background-color: #F7941D;
     border: solid 2px #F7941D;
     border-radius: 64px;
