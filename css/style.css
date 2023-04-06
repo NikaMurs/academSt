@@ -320,7 +320,7 @@ body {
     justify-content: space-evenly;
 }
 
-.teacherCard{
+.rectangleHref{
     border: solid 2px #FFFFFF;
     background-color: #FFFFFF;
     border-radius: 64px;
@@ -339,7 +339,7 @@ body {
     margin-bottom: 10px;
 }
 
-.teacherCard:hover{
+.rectangleHref:hover{
     border: solid 2px #F7941D;
 }
 
@@ -353,14 +353,36 @@ body {
     user-select: none;
 }
 
-.teacherCardText{
+.rectangleHref span{
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #6C6D71;
+    margin: 0;
+    line-height: 36px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.rectangleHref p{
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    color: #6C6D71;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.rectangleHrefText{
     width: calc(100% - 150px - 40px);
     margin-left: 40px;
     margin-top: auto;
     margin-bottom: auto;
 }
 
-.teacherCardText span{
+.rectangleHrefText span{
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 600;
@@ -371,7 +393,7 @@ body {
     width: 100%;
 }
 
-.teacherCardText p{
+.rectangleHrefText p{
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 200;
