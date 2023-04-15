@@ -534,8 +534,6 @@ body {
         justify-content: space-between;
         width: 100%;
         margin-top: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
     }
 
     .mainSlideTitle {
@@ -775,9 +773,6 @@ body {
         justify-content: space-evenly;
     }
 
-    .teacherCards .rectangleHref {
-        min-width: 450px;
-    }
 
     .rectangleHref {
         border: solid 2px #FFFFFF;
@@ -790,7 +785,7 @@ body {
         align-items: start;
         align-content: start;
         transition: 300ms;
-        width: calc(100% - 40px);
+        width: 100%;
         text-decoration: none;
         box-sizing: border-box;
         margin-top: 10px;
@@ -892,5 +887,448 @@ body {
 }
 
 @media(max-width: 575.9px){
+    .content {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    .headerWrapper {
+        background: linear-gradient(258.67deg, #3D3B8A 0%, #6E6CDA 58.18%, #AC8547 87.78%);
+    }
+
+    .header {
+        background-image: url('../img/noise.png');
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .headerLogo {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .headerLogoImg {
+        width: 200px;
+        pointer-events: none;
+        user-select: none;
+    }
+
+    .headerLogoText {
+        display: none;
+    }
+
+    .headerLogoText p {
+        color: #FFFFFF;
+        font-family: 'Fira Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        width: 100%;
+        margin: 0;
+        padding-left: 22px;
+    }
+
+    .headerTitle {
+        width: 100%;
+        font-size: 54px;
+        font-weight: 700;
+        letter-spacing: 3px;
+        color: #FFFFFF;
+        padding: 0;
+        margin-top: 80px;
+        padding-bottom: 100px;
+        margin-left: 22px;
+        cursor: default;
+    }
+
+    .circlePhotoRight {
+        display: none;
+    }
+
+    .mainWrapper {
+        background-color: #F0F1F5;
+    }
+
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 200px;
+    }
+
+    .mainSlide {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .mainSlideTitle {
+        font-family: 'Fira Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        color: #000000;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
     
+    .teacherCards {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .rectangleHref {
+        border: solid 2px #FFFFFF;
+        background-color: #FFFFFF;
+        border-radius: 35px;
+        padding: 20px 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        align-items: start;
+        align-content: start;
+        transition: 300ms;
+        width: 100%;
+        text-decoration: none;
+        box-sizing: border-box;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .rectangleHref:hover {
+        border: solid 2px #F7941D;
+    }
+
+    .teacherImg {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-top: auto;
+        margin-bottom: auto;
+        user-select: none;
+    }
+
+    .rectangleHrefText {
+        width: calc(100% - 100px - 20px);
+        margin-left: 20px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .rectangleHref span {
+        font-family: 'Fira Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        color: #6C6D71;
+        margin: 0;
+        line-height: 18px;
+        width: 100%;
+        cursor: pointer;
+    }
+
+    .rectangleHref p {
+        font-family: 'Fira Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 9px;
+        color: #6C6D71;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .rectangleHrefText span {
+        font-family: 'Fira Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        color: #6C6D71;
+        margin: 0;
+        line-height: 20px;
+        width: 100%;
+    }
+
+    .rectangleHrefText p {
+        font-family: 'Fira Sans';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 12px;
+        color: #6C6D71;
+        width: 100%;
+        margin: 0;
+    }
+
+    .rectangleWrapper {
+        display: flex;
+        position: relative;
+        width: 70%;
+    }
+
+    .rectangle {
+        border: solid 2px #FFFFFF;
+        position: relative;
+        background-color: #FFFFFF;
+        border-radius: 35px;
+        padding: 20px;
+        z-index: 2;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: start;
+        align-content: start;
+        width: 100%;
+        transition: 300ms;
+    }
+
+    .glow {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        filter: blur(10px);
+        z-index: 1;
+        transition: 300ms;
+    }
+
+    .rectangleWrapper:hover .glow {
+        background-color: #F7941D;
+    }
+
+    .rectangle:hover {
+        border: solid 2px #F7941D;
+    }
+
+    .rectangleTitle {
+        font-family: 'Fira Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        color: #6C6D71;
+        margin: 0;
+        margin-bottom: 10px;
+        line-height: 20px;
+        cursor: default;
+    }
+
+    .rectangle p {
+        font-family: 'Fira Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        color: #6C6D71;
+        cursor: default;
+        margin: 0;
+    }
+
+    .rectangleMargin {
+        margin-top: 10px;
+    }
+
+    .circlePhotoMission {
+        object-fit: scale-down;
+        object-position: 100% 100%;
+        pointer-events: none;
+        width: 20%;
+        max-width: 320px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .segmentsLeft {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: start;
+    }
+
+    .segmentsTitle {
+        font-family: 'Fira Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        color: #6C6D71;
+        width: 100%;
+    }
+
+    .segmentsRight {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: start;
+        align-content: start;
+    }
+
+    .segmentsRight .rectangle:nth-child(1){
+        margin-top: 10px;
+    }
+
+    .lineWrapper {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .line {
+        height: 2px;
+        width: 80%;
+        background-color: #F7941D;
+    }
+
+    .rectangleImg {
+        width: 20%;
+        object-fit: scale-down;
+        pointer-events: none;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .rectangleImgText {
+        width: 75%;
+    }
+
+    .faculty {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .faculty .rectangleHref {
+        width: 100%;
+    }
+
+    .faculty .rectangleMargin{
+        margin: 0;
+    }
+
+    .facultyLeft {
+        width: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: start;
+        align-content: start;
+    }
+
+    .facultyCenter {
+        width: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: start;
+        align-content: start;
+    }
+
+    .facultyRight {
+        width: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: start;
+        align-content: start;
+    }
+
+
+    .textCenter {
+        width: 100%;
+        text-align: center;
+    }
+
+    .arrowsWrapper {
+        width: 130%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .arrowsImg {
+        margin-top: 10px;
+        width: 70%;
+    }
+
+    .facultyConclusion {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: start;
+        align-content: start;
+    }
+
+    .facultyConclusion .rectangle {
+        border: solid 2px #F7941D;
+    }
+
+    .facultyLeft:hover .rectangle {
+        border: solid 2px #F7941D;
+    }
+
+    .facultyCenter:hover .rectangle {
+        border: solid 2px #F7941D;
+    }
+
+    .facultyRight:hover .rectangle {
+        border: solid 2px #F7941D;
+    }
+
+    .rectangle ul {
+        margin: 0;
+        padding-left: 10px;
+    }
+
+    .rectangle li {
+        font-family: 'Fira Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        color: #6C6D71;
+        cursor: default;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .ulMargin li:nth-child(n+2) {
+        margin-top: 5px;
+    }
+
+    .buttonWrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .button {
+        font-family: 'Fira Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFFFFF;
+        text-decoration: none;
+        text-align: center;
+        padding: 20px 40px;
+        margin: auto;
+        background-color: #F7941D;
+        border: solid 2px #F7941D;
+        border-radius: 64px;
+        transition: 300ms;
+    }
+
+    .button:hover {
+        background-color: #FFFFFF;
+        border: solid 2px #F7941D;
+        color: #F7941D;
+    }
 }
