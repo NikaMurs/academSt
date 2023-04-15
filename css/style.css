@@ -888,7 +888,6 @@ body {
 
 @media(max-width: 575.9px){
     .content {
-        position: relative;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -903,6 +902,8 @@ body {
     }
 
     .header {
+        position: relative;
+        overflow: hidden; 
         background-image: url('../img/noise.png');
         display: flex;
         flex-wrap: wrap;
@@ -943,19 +944,20 @@ body {
         letter-spacing: 3px;
         color: #FFFFFF;
         padding: 0;
-        padding-top: 130px;
-        padding-bottom: 140px;
+        padding-top: 50px;
+        padding-bottom: 300px;
         margin-left: 22px;
         cursor: default;
-
-        height: calc(100vh - 80px - 10px - 280px - 72px - 100px);
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
     }
 
     .circlePhotoRight {
-        display: none;
+        position: absolute;
+        right: -40px;
+        bottom: -50px;
+        object-fit: scale-down;
+        object-position: 100% 100%;
+        width: 70%;
+        pointer-events: none;
     }
 
     .mainWrapper {
