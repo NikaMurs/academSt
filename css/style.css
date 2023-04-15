@@ -943,10 +943,12 @@ body {
         letter-spacing: 3px;
         color: #FFFFFF;
         padding: 0;
-        padding-top: 60px;
+        padding-top: 130px;
         padding-bottom: 140px;
         margin-left: 22px;
         cursor: default;
+
+        height: calc(100vh - 80px - 10px - 280px - 72px - 160px);
         margin-left: auto;
         margin-right: auto;
         text-align: center;
