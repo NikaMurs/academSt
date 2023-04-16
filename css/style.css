@@ -306,6 +306,41 @@ body {
         border: solid 2px #F7941D;
     }
 
+    .facultyTechButtonsWrapper{
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 3;
+        background-color: rgba(0, 0, 0, .5);
+    }
+
+    .facultyTechButtons{
+        background-color: #cccccc;
+        border-color: #cccccc;
+        width: 600px;
+        height: 580px;
+        box-sizing: border-box;
+        position: fixed;
+        top: calc(50% - 290px);
+        left: calc(50% - 300px);
+    } 
+
+    .facultyTechButtons .rectangleHref{
+        width: 100%;
+        padding: 20px 45px;
+    }
+
+    .facultyTechButtons .teacherImg{
+        width: 100px;
+        height: 100px;
+    }
+
+    .facultyTechButtons:hover{
+        border-color: #cccccc;
+    }
+
     .rectangle ul {
         margin: 0;
     }
@@ -446,6 +481,8 @@ body {
         border: solid 2px #F7941D;
         color: #F7941D;
     }
+
+    
 }
 
 @media(min-width: 576px) and (max-width: 991.9px) {
@@ -705,6 +742,41 @@ body {
         flex-wrap: wrap;
         align-items: start;
         align-content: start;
+    }
+
+    .facultyTechButtonsWrapper{
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 3;
+        background-color: rgba(0, 0, 0, .5);
+    }
+
+    .facultyTechButtons{
+        background-color: #cccccc;
+        border-color: #cccccc;
+        width: 500px;
+        height: 440px;
+        box-sizing: border-box;
+        position: fixed;
+        top: calc(50% - 220px);
+        left: calc(50% - 250px);
+    } 
+
+    .facultyTechButtons .rectangleHref{
+        width: 100%;
+        padding: 20px 45px;
+    }
+
+    .facultyTechButtons .teacherImg{
+        width: 70px;
+        height: 70px;
+    }
+
+    .facultyTechButtons:hover{
+        border-color: #cccccc;
     }
 
     .textCenter {
@@ -1101,21 +1173,6 @@ body {
         transition: 300ms;
     }
 
-    .glow {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        filter: blur(10px);
-        z-index: 1;
-        transition: 300ms;
-    }
-
-    .rectangleWrapper:hover .glow {
-        background-color: #F7941D;
-    }
-
     .rectangle:hover {
         border: solid 2px #F7941D;
     }
@@ -1290,6 +1347,43 @@ body {
         border: solid 2px #F7941D;
     }
 
+    .facultyTechButtonsWrapper{
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 3;
+        background-color: rgba(0, 0, 0, .5);
+    }
+
+    .facultyTechButtons{
+        background-color: #cccccc;
+        border-color: #cccccc;
+        width: 250px;
+        height: 414px;
+        box-sizing: border-box;
+        position: fixed;
+        top: calc(50% - 207px);
+        left: calc(50% - 125px);
+    } 
+
+    .facultyTechButtons .rectangleHref{
+        width: 100%;
+        padding: 20px 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .facultyTechButtons .teacherImg{
+        width: 70px;
+        height: 70px;
+    }
+
+    .facultyTechButtons:hover{
+        border-color: #cccccc;
+    }
+
     .rectangle ul {
         margin: 0;
         padding-left: 10px;
@@ -1338,4 +1432,8 @@ body {
         border: solid 2px #F7941D;
         color: #F7941D;
     }
+}
+
+.hide{
+    display: none;
 }
