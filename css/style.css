@@ -617,10 +617,12 @@ body {
 
     .rectangleWrapper:hover .glow {
         background-color: #F7941D;
+        -webkit-tap-highlight-color: transparent;
     }
 
     .rectangle:hover {
         border: solid 2px #F7941D;
+        -webkit-tap-highlight-color: transparent;
     }
 
     .rectangleTitle {
@@ -777,6 +779,7 @@ body {
 
     .facultyTechButtons:hover{
         border-color: #cccccc;
+        -webkit-tap-highlight-color: transparent;
     }
 
     .textCenter {
@@ -809,14 +812,17 @@ body {
 
     .facultyLeft:hover .rectangle {
         border: solid 2px #F7941D;
+        -webkit-tap-highlight-color: transparent;
     }
 
     .facultyCenter:hover .rectangle {
         border: solid 2px #F7941D;
+        -webkit-tap-highlight-color: transparent;
     }
 
     .facultyRight:hover .rectangle {
         border: solid 2px #F7941D;
+        -webkit-tap-highlight-color: transparent;
     }
 
     .rectangle ul {
@@ -866,6 +872,7 @@ body {
 
     .rectangleHref:hover {
         border: solid 2px #F7941D;
+        -webkit-tap-highlight-color: transparent;
     }
 
     .teacherImg {
@@ -955,6 +962,7 @@ body {
         background-color: #FFFFFF;
         border: solid 2px #F7941D;
         color: #F7941D;
+        -webkit-tap-highlight-color: transparent;
     }
 }
 
@@ -1380,8 +1388,9 @@ body {
         height: 70px;
     }
 
-    .facultyTechButtons:hover{
+    .facultyTechButtons:active{
         border-color: #cccccc;
+        -webkit-tap-highlight-color: transparent;
     }
 
     .rectangle ul {
