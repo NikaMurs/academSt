@@ -1087,7 +1087,7 @@ body {
         margin-bottom: 10px;
     }
 
-    .rectangleHref:active {
+    .rectangleHref:hover {
         border: solid 2px #F7941D;
     }
 
@@ -1172,7 +1172,11 @@ body {
         width: 100%;
         transition: 300ms;
     }
-    
+
+    .rectangle:hover {
+        border: solid 2px #F7941D;
+    }
+
     .rectangleTitle {
         font-family: 'Fira Sans';
         font-style: normal;
@@ -1331,15 +1335,15 @@ body {
         border: solid 2px #F7941D;
     }
 
-    .facultyLeft:active .rectangle {
+    .facultyLeft:hover .rectangle {
         border: solid 2px #F7941D;
     }
 
-    .facultyCenter:active .rectangle {
+    .facultyCenter:hover .rectangle {
         border: solid 2px #F7941D;
     }
 
-    .facultyRight:active .rectangle {
+    .facultyRight:hover .rectangle {
         border: solid 2px #F7941D;
     }
 
@@ -1376,7 +1380,7 @@ body {
         height: 70px;
     }
 
-    .facultyTechButtons:active{
+    .facultyTechButtons:hover{
         border-color: #cccccc;
     }
 
@@ -1423,7 +1427,7 @@ body {
         transition: 300ms;
     }
 
-    .button:active {
+    .button:hover {
         background-color: #FFFFFF;
         border: solid 2px #F7941D;
         color: #F7941D;
