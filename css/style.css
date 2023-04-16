@@ -1089,6 +1089,7 @@ body {
 
     .rectangleHref:active {
         border: solid 2px #F7941D;
+        -webkit-tap-highlight-color: transparent;
     }
 
     .teacherImg {
@@ -1333,14 +1334,17 @@ body {
 
     .facultyLeft:active .rectangle {
         border: solid 2px #F7941D;
+        -webkit-tap-highlight-color: transparent;
     }
 
     .facultyCenter:active .rectangle {
         border: solid 2px #F7941D;
+        -webkit-tap-highlight-color: transparent;
     }
 
     .facultyRight:active .rectangle {
         border: solid 2px #F7941D;
+        -webkit-tap-highlight-color: transparent;
     }
 
     .facultyTechButtonsWrapper{
@@ -1427,6 +1431,7 @@ body {
         background-color: #FFFFFF;
         border: solid 2px #F7941D;
         color: #F7941D;
+        -webkit-tap-highlight-color: transparent;
     }
 }
 
