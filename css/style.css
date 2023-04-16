@@ -1087,10 +1087,6 @@ body {
         margin-bottom: 10px;
     }
 
-    .rectangleHref:hover {
-        border: solid 2px #F7941D;
-    }
-
     .teacherImg {
         width: 70px;
         height: 70px;
@@ -1171,10 +1167,6 @@ body {
         align-content: start;
         width: 100%;
         transition: 300ms;
-    }
-
-    .rectangle:hover {
-        border: solid 2px #F7941D;
     }
 
     .rectangleTitle {
@@ -1331,22 +1323,6 @@ body {
         align-content: start;
     }
 
-    .facultyConclusion .rectangle {
-        border: solid 2px #F7941D;
-    }
-
-    .facultyLeft:hover .rectangle {
-        border: solid 2px #F7941D;
-    }
-
-    .facultyCenter:hover .rectangle {
-        border: solid 2px #F7941D;
-    }
-
-    .facultyRight:hover .rectangle {
-        border: solid 2px #F7941D;
-    }
-
     .facultyTechButtonsWrapper{
         position: fixed;
         left: 0;
@@ -1378,10 +1354,6 @@ body {
     .facultyTechButtons .teacherImg{
         width: 70px;
         height: 70px;
-    }
-
-    .facultyTechButtons:hover{
-        border-color: #cccccc;
     }
 
     .rectangle ul {
@@ -1427,11 +1399,6 @@ body {
         transition: 300ms;
     }
 
-    .button:hover {
-        background-color: #FFFFFF;
-        border: solid 2px #F7941D;
-        color: #F7941D;
-    }
 }
 
 .hide{
