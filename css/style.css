@@ -1087,7 +1087,7 @@ body {
         margin-bottom: 10px;
     }
 
-    .rectangleHref:hover {
+    .rectangleHref:active {
         border: solid 2px #F7941D;
     }
 
@@ -1171,10 +1171,6 @@ body {
         align-content: start;
         width: 100%;
         transition: 300ms;
-    }
-
-    .rectangle:hover {
-        border: solid 2px #F7941D;
     }
 
     .rectangleTitle {
@@ -1335,15 +1331,15 @@ body {
         border: solid 2px #F7941D;
     }
 
-    .facultyLeft:hover .rectangle {
+    .facultyLeft:active .rectangle {
         border: solid 2px #F7941D;
     }
 
-    .facultyCenter:hover .rectangle {
+    .facultyCenter:active .rectangle {
         border: solid 2px #F7941D;
     }
 
-    .facultyRight:hover .rectangle {
+    .facultyRight:active .rectangle {
         border: solid 2px #F7941D;
     }
 
@@ -1427,7 +1423,7 @@ body {
         transition: 300ms;
     }
 
-    .button:hover {
+    .button:active {
         background-color: #FFFFFF;
         border: solid 2px #F7941D;
         color: #F7941D;
